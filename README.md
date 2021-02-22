@@ -55,7 +55,9 @@ synthetic/setting2_generate_figure.ipynb
 ```
 
 ## Language Modelling & Machine Translation
-TODO
+The toolkit and scripts for language modeling experiments can be found in this [repository](https://github.com/IDSIA/lmtool-fwms).
+
+For machine translation experiments, we ported the different attention functions implemented in the language modeling toolkit to the multi-head attention implementation in [FAIRSEQ](https://github.com/pytorch/fairseq).
 
 ## Citation
 ```
