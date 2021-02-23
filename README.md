@@ -1,6 +1,6 @@
 # Linear Transformers Are Secretly Fast Weight Memory Systems
-This repository contains the code accompanying the paper [*Linear Transformers Are Secretly Fast Weight Memory Systems*]() which is currently under review.
-We provide experiment logs for all synthetic experiments.
+This repository contains the code accompanying the paper [*Linear Transformers Are Secretly Fast Weight Memory Systems*](https://arxiv.org/abs/2102.11174) which is currently under review.
+It also contains the logs of all synthetic experiments.
 ## Synthetic Experiments
 
 ### Requirements
@@ -57,9 +57,14 @@ synthetic/setting2_generate_figure.ipynb
 ## Language Modelling & Machine Translation
 The toolkit and scripts for language modeling experiments can be found at [IDSIA/lmtool-fwms](https://github.com/IDSIA/lmtool-fwms).
 
-For machine translation experiments, we ported the different attention functions implemented in the language modeling toolkit to the multi-head attention implementation in [FAIRSEQ](https://github.com/pytorch/fairseq).
+For machine translation experiments, we ported the different attention functions implemented in the language modeling toolkit to the multi-head attention implementation in [FAIRSEQ](https://github.com/pytorch/fairseq).
 
 ## Citation
 ```
-TODO
+@article{schlag2021linear,
+      title={Linear Transformers Are Secretly Fast Weight Memory Systems}, 
+      author={Imanol Schlag and Kazuki Irie and Jürgen Schmidhuber},  
+      journal={Preprint arXiv:2102.11174},
+      year={2021}
+}
 ```
