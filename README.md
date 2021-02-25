@@ -63,7 +63,7 @@ For machine translation experiments, we ported the different attention functions
 ```
 @article{schlag2021linear,
       title={Linear Transformers Are Secretly Fast Weight Memory Systems}, 
-      author={Imanol Schlag and Kazuki Irie and Jürgen Schmidhuber},  
+      author={Imanol Schlag and Kazuki Irie and J\"urgen Schmidhuber},  
       journal={Preprint arXiv:2102.11174},
       year={2021}
 }
