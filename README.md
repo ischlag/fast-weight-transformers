@@ -1,5 +1,5 @@
-# Linear Transformers Are Secretly Fast Weight Memory Systems
-This repository contains the code accompanying the paper [*Linear Transformers Are Secretly Fast Weight Memory Systems*](https://arxiv.org/abs/2102.11174) which is currently under review.
+# Linear Transformers Are Secretly Fast Weight Programmers
+This repository contains the code accompanying the paper [*Linear Transformers Are Secretly Fast Weight Programmers*](https://arxiv.org/abs/2102.11174) which is published at ICML'21.
 It also contains the logs of all synthetic experiments.
 ## Synthetic Experiments
 
@@ -61,10 +61,12 @@ For machine translation experiments, we ported the different attention functions
 
 ## Citation
 ```
-@article{schlag2021linear,
-      title={Linear Transformers Are Secretly Fast Weight Memory Systems}, 
-      author={Imanol Schlag and Kazuki Irie and J\"urgen Schmidhuber},  
-      journal={Preprint arXiv:2102.11174},
+@inproceedings{schlag2021linear,
+      title={Linear Transformers Are Secretly Fast Weight Programmers}, 
+      author={Imanol Schlag and Kazuki Irie and J\"urgen Schmidhuber},
+      booktitle={Proc. Int. Conf. on Machine Learning (ICML)},
+      address = {Virtual only},
+      month = jul,
       year={2021}
 }
 ```
